@@ -1,19 +1,14 @@
 # React Express Starter Pack
-
-> Create full stack apps with React and Express. Run your client and server with a single command. 
-
-### Redux Version
-This version does not include Redux
-[Click Here For Redux Version](https://github.com/bradtraversy/react_redux_express_starter) 
+Local Machine requirements : node, npm, mysql 
 
 ## Quick Start
-
+create database `create database coral_blockchain_user` then create table user in this database `create table user (ID ,userName varchar(25), emailId varchar(50) primary key, password varchar(50) ,phoneNo varchar(10) ,dateTime)`
 ``` bash
 # Install dependencies for server
 npm install
 
 # Install dependencies for client
-npm run client-install
+npm run client-install (or) go in client folder and run this command npm install
 
 # Run the client & server with concurrently
 npm run dev
@@ -31,8 +26,8 @@ npm run client
 
 ### Author
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
+Sandesh Bagade 
+(sandeshbagade25@gmail.com)
 
 ### Version
 
